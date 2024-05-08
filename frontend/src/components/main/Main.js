@@ -3,6 +3,7 @@ import './Main.css';
 
 import Header from '../header/Header';
 import MainContentTop from './main-content-top/MainContentTop';
+import Footer from '../footer/Footer';
 
 const Main = () => {
   return (
@@ -17,7 +18,9 @@ const Main = () => {
             <MainContentTop/>
         </div>
       </div>
-      <div id='footer' className='w-full h-fit bg-amber-400'></div>
+      <div id='footer' className='w-full h-fit bg-amber-400'>
+        <Footer/>
+      </div>
     </div>
   );
 };
