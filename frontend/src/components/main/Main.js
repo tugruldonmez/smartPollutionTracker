@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css'; // Tailwind CSS'i içeren bir dosya olduğunu varsayalım
-import Navbar from '../navbar/Navbar';
+import Navbar from '../header/Navbar';
 
 const Main = () => {
   return (
