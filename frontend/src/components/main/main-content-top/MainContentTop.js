@@ -13,9 +13,9 @@ const MainContentTop = () => {
             <p className=' text-2xl font-sans font-semibold'>"Görünmez Katil"</p>
         </div>
         <div className='flex justify-evenly'>
-            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col gap-2 w-3/12 mx-2 items-center  rounded-lg h-fit text-start p-4">
-                <div class="row-span-3 ...  " >
-                    <img src={population} style={{ width: '120px', height: '120px' }}></img>
+            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col gap-2 w-3.5/12 mx-2 items-center  rounded-lg h-fit text-start p-4">
+                <div class="row-span-3 ... mr-4" >
+                    <img src={population} style={{ width: '160px', height: '160px' }}></img>
                 </div>
                 <div id='titlediv' class="col-span-2 ...">
                     <p className=' text-3xl font-bold'>DÜNYADA 8 MİLYON İNSAN</p>
@@ -24,9 +24,9 @@ const MainContentTop = () => {
                     <p className=' font-sans text-2xl font-normal text-gray-900'>Dünya Sağlık Örgütü verilerine göre, dünyada her yıl 10 kişiden 9’u hava kirliliğine bağlı olarak hayatını kaybediyor.</p>
                 </div>
             </div>
-            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col w-3/12 gap-2 mx-2 items-center  rounded-lg h-fit text-start p-4">
-                <div class="row-span-3 ...  " >
-                    <img src={traffic} style={{ width: '120px', height: '120px' }}></img>
+            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col w-3.5/12 gap-2 mx-2 items-center  rounded-lg h-fit text-start p-4">
+                <div class="row-span-3 ...  mr-4" >
+                    <img src={traffic} style={{ width: '160px', height: '160px' }}></img>
                 </div>
                 <div id='titlediv' class="col-span-2 ...">
                     <p className=' text-3xl font-bold'>Trafik kazalarının 6 katı</p>
@@ -36,10 +36,10 @@ const MainContentTop = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-evenly'>
-            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col w-3/12 gap-2 mx-2 items-center  rounded-lg h-fit text-start p-4">
-                <div class="row-span-3 ...  " >
-                    <img src={heart} style={{ width: '120px', height: '120px' }}></img>
+        <div className='flex justify-evenly mt-10'>
+            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col w-3.5/12 gap-2 mx-2 items-center  rounded-lg h-fit text-start p-4">
+                <div class="row-span-3 ...  mr-4" >
+                    <img src={heart} style={{ width: '160px', height: '160px' }}></img>
                 </div>
                 <div id='titlediv' class="col-span-2 ...">
                     <p className=' text-3xl font-bold'>1.4 MİLYON KALP KRİZİ</p>
@@ -49,9 +49,9 @@ const MainContentTop = () => {
 </p>
                 </div>
             </div>
-            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col w-3/12 gap-2 mx-2 items-center  rounded-lg h-fit text-start p-4">
-                <div class="row-span-3 ...  " >
-                    <img src={sad} style={{ width: '120px', height: '120px' }}></img>
+            <div id='imgdiv' class="grid grid-rows-1 grid-flow-col w-3.5/12 gap-2 mx-2 items-center  rounded-lg h-fit text-start p-4">
+                <div class="row-span-3 ...  mr-4" >
+                    <img src={sad} style={{ width: '160px', height: '160px' }}></img>
                 </div>
                 <div id='titlediv' class="col-span-2 ...">
                     <p className=' text-3xl font-bold'>30 ilde 18 milyon kişi</p>
