@@ -1,5 +1,5 @@
 import React from 'react';
-import './Main.css'; // Tailwind CSS'i içeren bir dosya olduğunu varsayalım
+import './Main.css'; 
 
 import Header from '../header/Header';
 import MainContentTop from './main-content-top/MainContentTop';
