@@ -6,6 +6,7 @@ import Slider from './Slider';
 const Header = () => {
   return (
     <div>
+        
    
       <Navbar></Navbar>
       <Slider></Slider>
