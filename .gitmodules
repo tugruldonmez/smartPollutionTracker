@@ -1,0 +1,6 @@
+[submodule "frontend/reactapp"]
+	path = frontend/reactapp
+	url = https://github.com/tugruldonmez/smartPollutionTracker.git
+[submodule "reactapp"]
+	path = reactapp
+	url = https://github.com/tugruldonmez/smartPollutionTracker.git
