@@ -1,5 +1,6 @@
 import React from 'react';
 import navbaresim from './aaaa.jpg';
+import Slider from './Slider';
 
 const Navbar = () => {
   return (
@@ -37,8 +38,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      
-      
+   
     </div>
   );
 };
