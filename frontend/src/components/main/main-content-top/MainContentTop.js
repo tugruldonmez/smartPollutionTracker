@@ -7,7 +7,7 @@ import traffic from '../../img/traffic.png'
 
 const MainContentTop = () => {
   return (
-    <div className='  bg-gray-50 rounded-lg'>
+    <div className=' rounded-lg'>
         <div id='title' className=' mt-10 mb-6'>
             <p className=' text-5xl font-sans font-bold'>Hava Kirliliği</p>
             <p className=' text-xl font-sans font-semibold'>"Görünmez Katil"</p>

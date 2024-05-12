@@ -4,6 +4,7 @@ import './Main.css';
 import Header from '../header/Header';
 import MainContentTop from './main-content-top/MainContentTop';
 import Footer from '../footer/Footer';
+import MainContentVideo from './main-content-video/MainContentVideo';
 
 const Main = () => {
   return (
@@ -13,9 +14,10 @@ const Main = () => {
             <Header />
         </div>
       </div>
-      <div id='main' className='w-full h-fit  p-8'>
+      <div id='main' className='w-full h-fit'>
         <div id='topOfMain' className=' text-center'>
             <MainContentTop/>
+            <MainContentVideo/>
         </div>
       </div>
       <div id='footer' className='w-full h-fit bg-amber-400'>
