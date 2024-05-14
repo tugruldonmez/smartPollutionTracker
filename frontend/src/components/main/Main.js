@@ -5,6 +5,7 @@ import Header from '../header/Header';
 import MainContentTop from './main-content-top/MainContentTop';
 import Footer from '../footer/Footer';
 import MainContentVideo from './main-content-video/MainContentVideo';
+import MainContentNews from './main-content-news/MainContentNews';
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
         <div id='topOfMain' className=' text-center'>
             <MainContentTop/>
             <MainContentVideo/>
+            <MainContentNews/>
         </div>
       </div>
       <div id='footer' className='w-full h-fit bg-amber-400'>
