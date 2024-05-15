@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import sliderImage1 from './sliderhava1.jpg';
-import sliderImage2 from './sliderhava2.jpg';
+import slider1 from '../img/slider1.jpg';
+import slider2 from '../img/slider2.jpeg';
+import slider3 from '../img/slider3.jpg';
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const slides = [sliderImage1, sliderImage2];
+  const slides = [slider1, slider2, slider3];
 
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -25,7 +26,7 @@ const Slider = () => {
 
   return (
 
-    <div className="relative w-full h-96 overflow-hidden">
+    <div className="relative w-full h-custom_for_scrollbar overflow-hidden bg-transparent ">
       <img src={slides[currentSlide]} alt={`Slide ${currentSlide + 1}`} className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex items-center justify-between">
         <button onClick={prevSlide} className="absolute left-0 w-12 h-12 bg-gray-800/50 rounded-full flex items-center justify-center text-white focus:outline-none">

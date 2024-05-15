@@ -10,8 +10,8 @@ import MainContentNews from './main-content-news/MainContentNews';
 const Main = () => {
   return (
     <div id='container' className='w-full h-screen flex flex-col overflow-y-auto'>
-      <div id='header' className='w-full h-fit bg-slate-500'>
-        <div className=' w-full h-fit'>
+      <div id='header' className='w-full h-fit bg-transparent'>
+        <div className=' w-full h-fit bg-transparent'>
             <Header />
         </div>
       </div>

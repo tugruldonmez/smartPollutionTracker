@@ -27,6 +27,7 @@ module.exports = {
         'koyu-reddit-grisi':'#b0a8a0',
         'header-bg':'#fcfefbff',
         'adminmenu':'#1c2434',
+        'sptYesili':'#079450',
       },
       height: {
         custom_for_scrollbar:'480px',

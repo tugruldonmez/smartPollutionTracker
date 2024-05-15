@@ -5,12 +5,11 @@ import Slider from './Slider';
 
 const Header = () => {
   return (
-    <div>
+    <div className=" bg-transparent">
         
-   
       <Navbar></Navbar>
-      <Slider></Slider>
-      
+      <Slider/>
+
     </div>
   );
 };
