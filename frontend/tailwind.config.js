@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  mode:'jit',
+  mode: 'jit',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -16,22 +16,22 @@ module.exports = {
       },
       colors: {
         'regal-blue': '#243c5a',
-        'eksi-yesili':'#52a500ff',
-        'reddit-grisi':'#e3e3e3',
-        'reddit-fontcolor':'#87888aff',
-        'orange':'#fd4400ff',
-        'light-orange':'#f2a795ff',
-        'lighter-orange':'#FADBD8',
-        'b5c276':'#b5c276',
-        'cinnemon':'#7b3f00',
-        'koyu-reddit-grisi':'#b0a8a0',
-        'header-bg':'#fcfefbff',
-        'adminmenu':'#1c2434',
-        'sptYesili':'#079450',
+        'eksi-yesili': '#52a500ff',
+        'reddit-grisi': '#e3e3e3',
+        'reddit-fontcolor': '#87888aff',
+        'orange': '#fd4400ff',
+        'light-orange': '#f2a795ff',
+        'lighter-orange': '#FADBD8',
+        'b5c276': '#b5c276',
+        'cinnemon': '#7b3f00',
+        'koyu-reddit-grisi': '#b0a8a0',
+        'header-bg': '#fcfefbff',
+        'adminmenu': '#1c2434',
+        'sptYesili': '#079450',
       },
       height: {
-        custom_for_scrollbar:'480px',
-        px107_for_logo:'107px',
+        custom_for_scrollbar: '480px',
+        px107_for_logo: '107px',
         '1/12': '8.333333%',
         '5/12': '41.5%',
         '7/12': '58.31%',
@@ -39,19 +39,26 @@ module.exports = {
         '11/12': '88.333333%',
       },
       width: {
-        px310_for_logo:'310px',
-        w3pcs:'6%',
-        '2.5/12':'21%',
-        '1.5/12':'12.5%',
-        '3.5/12':'29.4%',
-        '4.5/12':'37.5%',
+        px310_for_logo: '310px',
+        w3pcs: '6%',
+        '2.5/12': '21%',
+        '1.5/12': '12.5%',
+        '3.5/12': '29.4%',
+        '4.5/12': '37.5%',
       },
       fontSize: {
         '2xs': '0.65rem',
       },
-      
+      animation: {
+        fadeIn: 'fadeIn 1s ease-in-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
     },
   plugins: [],
   }
-
 }

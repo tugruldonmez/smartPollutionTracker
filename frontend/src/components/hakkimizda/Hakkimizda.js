@@ -4,20 +4,20 @@ const Hakkimizda = () => {
   return (
     <div className='w-full h-full p-8 pl-16 bg-slate-50'>
       <div className='bg-sptYesili w-3/12 h-fit text-center text-2xl p-2 text-white' id='title'>
-        <p>Smart Pollution Tracker Nedir ?</p>
+        <p className="animate-fadeIn">Smart Pollution Tracker Nedir ?</p>
       </div>
       <div className='w-9/12'>
-        <p className='text-lg font-bold pt-10'>Kuruluş Ön Bilgileri</p>
-        <p className='pt-6'>
+        <p className='text-lg font-bold pt-10 animate-fadeIn'>Kuruluş Ön Bilgileri</p>
+        <p className='pt-6 animate-fadeIn'>
           Projemiz, web ve mobil uygulama geliştirme alanında faaliyet göstermektedir. Şirketimiz, 20 Ekim 2023 tarihinde kurulmuştur. Bu proje, ekip üyelerimizin ortak çabasıyla oluşturulan bir iş planına dayanmaktadır. İş planı, projenin hedeflerini, kapsamını ve zaman çizelgesini belirleyerek, etkili bir proje yönetimi stratejisi izlemeyi amaçlamaktadır.
         </p>
-        <p className='text-lg font-bold pt-10'>Proje Özeti</p>
-        <p className='pt-6'>
+        <p className='text-lg font-bold pt-10 animate-fadeIn'>Proje Özeti</p>
+        <p className='pt-6 animate-fadeIn'>
           Projemiz, şehirdeki kirlilik seviyelerini analiz ederek sürdürülebilirlik önlemleri almayı ve çevre kalitesini artırmayı hedefler. Birleşmiş Milletler ‘in sürdürülebilir kalkınma hedeflerine katkı sağlamayı amaçlar. Sağlıkla ilgili hedeflere odaklanarak çevresel kirliliği azaltmayı, şehir planlamasını iyileştirip sürdürülebilir bir yaşam alanı oluşturmayı planlar. Toplumun çevresel sorumluluklarını artırmayı ve çevre dostu davranışları ödüllendiren bir sistem oluşturmayı içerir. Bireylerin sağlıklı yaşam ve çevresel etkileşim arasındaki ilişkiyi vurgular, karbon ayak izi hesaplama sistemleriyle akciğer kanseri riskini değerlendirir.
         </p>
 
-        <p className='text-lg font-bold pt-10'>Proje Tanımı Özet Tablosu</p>
-        <div className='overflow-x-auto pt-6'>
+        <p className='text-lg font-bold pt-10 animate-fadeIn'>Proje Tanımı Özet Tablosu</p>
+        <div className='overflow-x-auto pt-6 animate-fadeIn'>
           <table className='min-w-full bg-white border border-gray-200'>
             <tbody>
               <tr>

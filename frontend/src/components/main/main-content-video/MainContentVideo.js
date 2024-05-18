@@ -4,7 +4,7 @@ import YouTube from 'react-youtube';
 
 const MainContentVideo = () => {
   return (
-    <div className=' w-full h-fit bg-gray-50 justify-center flex py-8'>
+    <div className=' w-full h-fit bg-gray-50 justify-center flex py-8 animate-fadeIn'>
         <div className=' w-4/12 h-fit py-20 text-start'>
             <div className=' w-full pr-10' id='content'>
                 <div id='videotitle' >

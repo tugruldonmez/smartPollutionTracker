@@ -5,7 +5,7 @@ import komur from '../../img/komurfabrika.jpg'
 
 const MainContentNews = () => {
   return (
-    <div className='relative  w-full h-fit  flex justify-evenly'>
+    <div className='relative  w-full h-fit  flex justify-evenly animate-fadeIn'>
         <div id='title' className='absolute w-full  h-fit'>
             <p className=' text-2xl font-bold font-sans'>Haberler</p>
         </div>
